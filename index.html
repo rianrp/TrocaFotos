@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <script type="text/javascript" charset="utf-8" src="script.js">
+    </script>
+    <title>Treina</title>
+    <style>
+      body{
+        background-color: #080808;
+      }
+      img{
+        width: 60%;
+      }
+      .imagem{
+        position: absolute;
+        margin-top: 70%;
+        background-color: #111111;
+        width: 295px;
+        text-align: center;
+        padding: 0px;
+      }
+      button{
+        border: 0;
+        padding: 10px;
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        margin-top: 340px;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+      .botoes{
+        text-align: center;
+        float: left;
+      }
+      .botoesE{
+        text-align: center;
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="botoes">
+    <button onClick="direita();" class="direita"><</button>
+    </div>
+    <div class="imagem" style="display: inline;" id="imagem1">
+      <img src="img1.gif">
+    </div>
+    <div class="imagem" style="display: none;" id="imagem2">
+      <img src="img2.png">
+    </div>
+    <div class="imagem" style="display: none" id="imagem3">
+      <img src="img3.png">
+    </div>
+<div class="botoesE">
+    <button onClick="esquerda();">></button>
+</div>
+  </body>
+</html>
